@@ -1,7 +1,7 @@
 # Reply Code Challenge 2019
 
 <p align="center">
-	<img src="img/reply-corporate-logo.png">
+	<img src="images/reply-corporate-logo.png">
 </p>
 
 ## *Problem statement*
@@ -24,9 +24,9 @@ On the first line you will find four integers separated by a whitespace characte
 C lines follow, each one built of three integers describing the X coordinate, the Y coordinate, and the reward associated with Customer Headquarter.
 Then, M lines follow, describing a row of N terrain cells. The top-left cell is the origin of the map and is thus assigned “(0, 0)” coordinates. In the world map columns are represented by the X coordinate, while rows by the Y coordinate.
 ## *Constraints*
-1 ≤ 𝑅 < 𝐶 ≤ 500
-1 ≤ 𝑁 ≤ 2.000
-1 ≤ 𝑀 ≤ 2.000
+1 ≤ 𝑅 < 𝐶 ≤ 500<br>
+1 ≤ 𝑁 ≤ 2.000<br>
+1 ≤ 𝑀 ≤ 2.000<br>
 
 ## *Output format*
 For each path going from a Reply Office to a Customer Headquarter, output a single line built of the Reply Office X coordinate, Y coordinate, and a string representing the sequence of steps to reach the Customer Headquarter. Separate each of these three components by a single whitespace character. The Reply office coordinates are integer numbers. The sequence of steps is a string composed by the ASCII characters U, R, D, L (UP, RIGHT, DOWN, LEFT).
@@ -37,7 +37,7 @@ Aside the first test case "1_victoria_lake.txt", input maps keep increasing in s
 
 The following procedure will explain this approach a little more in details:
 
-C: # of customer headquarters
+C: # of customer headquarters<br>
 R: # of reply offices to build
 ```
 1. Assign each customer headquarter to R cluster by using K-means algorithm;
@@ -50,15 +50,21 @@ R: # of reply offices to build
 8. Print out solution (x coordinate, y coordinate, sequence of moves);
 ```
 ## *Scores*
-> **1_victoria_lake:** 4.702 points
-> **2_himalayas:** 3.651.108 points
-> **3_budapest:** 3.325.504 points
-> **4_manhattan:** 770.110 points
-> **5_oceania:** 2.945.099 points
+> **1_victoria_lake:** 4.702 points<br>
+> **2_himalayas:** 3.651.108 points<br>
+> **3_budapest:** 3.325.504 points<br>
+> **4_manhattan:** 770.110 points<br>
+> **5_oceania:** 2.945.099 points<br>
 
 >**Total score:** 10.696.523 points 
 
 ## *Screenshots*
+<p align="center">
+	<img height="500" src="images/img1.PNG">
+</p>
+<p align="center">
+	<img height="500" src="images/img2.PNG">
+</p>
 
 
 
